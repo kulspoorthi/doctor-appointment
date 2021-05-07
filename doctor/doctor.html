@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>   
+<html lang="en">
+<head>
+    <title>Bookings</title>
+    <link rel="icon" href="../logo1.png" type="image/x-icon" />
+<style>
+p.main {
+    text-align: right;
+}
+.container {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+</style>
+<div class="container">
+</div>
+<br>
+<div class="logo">
+<img src="../logo1.png" height="50px" width="50px" style="float:left">
+					<a  style="font-size:40px; font-weight:bold;color:teal" >MUKUND ORTHOPAEDIC CENTER</a>
+                </div>
+                <br>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                </head>
+               
+                    <nav class="navbar navbar-inverse">
+                        <div class="container-fluid">
+                          <ul class="nav navbar-nav">
+                            <li class="active"><a href="../abc.html">Home</a></li>
+                          </ul>
+                        </div>
+                        </nav>
+        <body style="background-color:white;">
+        <header>
+            <br>
+            <a href="/" class="d-flex flex-sm-grow-1 navbar-brand"></a>
+            <h2 class="text-primary text-xlg" style="font-style:Georgia;color:teal"><b>Bookings:</b></h2>
+            <br>
+            <br>
+            <div class="row"><div class="my-6 col-12 col-md-4" style="order: 0;"><div class="text-center serviceIcon">
+              <form action='doctor.php' method='post'>
+<h2 class="text-center text-lg text-primary">Pick a date to <br>check appointments:</h2>
+</div><span>  <center><input type="date" name="date" placeholder="Enter date"> </center><br><br></span>
+   <span> <center><input class=" btn btn-primary my-2 my-sm-0 mr-sm-2" type="submit" placeholder="Search"></center></span>
+  </form>
+</div>
+
+
+
+
+
+
+<div class="my-3 col-12 col-md-4" style="order: 1;"><div class="text-center serviceIcon">
+<h2 class="text-center text-lg text-primary">Click here to <br>cancel appointment:</h2></div>
+<center><button class=" btn btn-primary my-2 my-sm-0 mr-sm-2" type="submit"><a href="cancel.php">Cancel</a></button><br></center><br></div>
+<style>
+    a{
+        color:white;
+    }
+</style>
+<form action='drop1.php' method='post'>
+<div class="my-3 col-12 col-md-4" style="order: 1;"><div class="text-center serviceIcon">
+<h2 class="text-center text-lg text-primary">Click here to <br>block appointment:</h2></div>
+<center>
+<span>  <input type="date" name='date' placeholder="Enter date"> <br><br></span></center>
+<center><input class=" btn btn-primary my-2 my-sm-0 mr-sm-2" type="submit" placeholder='Block'><br></center><br></div></form>
+
+<style>
+    a{
+        color:white;
+    }
+</style>
+    <br>
+    <br>
+    </header>
+    </body>
+    </html>
+    
